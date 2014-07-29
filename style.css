@@ -1,0 +1,45 @@
+/*
+	Plugin Name: TraceNow Tracking
+	Plugin URI: http://www.titandesign.co.uk
+	Description: A simple parcel tracking plugin for Codeway TraceNow.
+	Author: Richard King
+	Author URI: http://www.titandesign.co.uk/
+ 
+	Version: 1.0.0
+ 
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+ 
+ 
+#response_area {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 20px 40px;
+	color: #000;
+}
+ 
+.tracenow {
+	max-width: 100%;
+}
+ 
+#theForm{
+	margin: 0 auto;
+	margin-bottom: 5%;
+	max-width: 500px;
+}
+ 
+#consignmentNumber {
+	max-width: 100%;
+	border: 1px solid #333;
+	padding: 3px 5px;
+}
+ 
+#submit_button {
+	position: relative;
+	cursor: pointer;
+	background: blue;
+	color: white;
+	padding: 2px 4px;
+}
