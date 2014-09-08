@@ -13,11 +13,15 @@
  
  
 #response_area {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	background-color: #eee;
-	padding: 20px 40px;
+	padding: 10px 20px;
 	color: #000;
+}
+ 
+.tracenow {
+	max-width: 100%;
 }
  
 #theForm{
@@ -38,4 +42,41 @@
 	background: blue;
 	color: white;
 	padding: 2px 4px;
+}
+ 
+consignmentnumber {
+	font-size: 24px;
+}
+ 
+customerref,
+itemcount, 
+name,
+address1,
+address2,
+town,
+county,
+postcode,
+country {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+ 
+recipient,
+status,
+collected,
+delivered,
+collectioncode,
+deliverycode,
+comments,
+created,
+deliverylatitude,
+deliverylongitude {
+	font-size: 18px;
+}
+ 
+deliverysignature {}
+ 
+#imagediv {
+	width: 90%;
+	margin: 0 auto;
 }
